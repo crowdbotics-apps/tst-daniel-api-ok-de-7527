@@ -1,6 +1,6 @@
 import * as types from "./constants"
 
-const initialState = {}
+const initialState = { get_PetsLists: [] }
 
 export default function apiReducer(state = initialState, action) {
   switch (action.type) {
